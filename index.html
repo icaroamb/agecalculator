@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Icaro Mariano | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="main">
+    <div id="data-users">
+      <div id="day-box">
+        <label for="Day">DAY</label>
+        <input type="text" name="Day" placeholder="DD" id="dayUser" maxlength="2">
+        <span class="erro1" style="color: red; font-size: 10px; align-self: center; display: none;">Insira um dia Válido</span>
+      </div>
+      <div id="month-box">
+        <label for="Month">MONTH</label>
+        <input type="text" name="Month" placeholder="MM" id="monthUser" maxlength="2">
+        <span class="erro2" style="color: red; font-size: 10px; align-self: center; display: none;">Insira um mês Válido</span>
+      </div>
+      <div id="year-box">
+        <label for="Year">YEAR</label>
+        <input type="text" name="Year" placeholder="YYYY" id="yearUser" maxlength="4">
+        <span class="erro3" style="color: red; font-size: 10px; align-self: center; display: none;">Insira um ano Válido</span>
+      </div>
+    </div>
+
+    <div id="button-submit">
+      <div id="line"></div>
+      <div id="seta-imagem" class="slide"><img src="images/icon-arrow.svg" alt=""></div>
+      
+    </div>
+    <div id="result-users">
+      <p><span id="res-years">--</span> years</p>
+      <p><span id="res-months">--</span> months</p>
+      <p><span id="res-days">--</span> days</p>
+    </div>
+    
+  </div>
+  <!--<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.-->
+  </div>
+
+  <script src="arquivo.js"></script>
+</body>
+</html>
